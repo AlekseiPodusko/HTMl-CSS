@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <title>disabled</title>
+    <style>
+        textarea:disabled{
+            background: url(border.png) ;
+            border: 1px solid #666;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <textarea cols="30" rows="5">
+            Поле блокнуто, но не блокнуто
+        </textarea>
+        <textarea disabled cols="30" rows="5">
+            Поле блокнуто
+        </textarea>
+    </form>
+</body>
+</html>
